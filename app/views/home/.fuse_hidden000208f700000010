@@ -1,9 +1,6 @@
 
 <% @jobs.each do |j| %>
   <h1><%= link_to j.title, job_path(j) %></h1>
-  <% if j.featured %>
-    <strong>Destaque</strong>
-  <% end %>
   <%= j.category %><br>
   <%= j.company %> <br>
   <%= j.location %>

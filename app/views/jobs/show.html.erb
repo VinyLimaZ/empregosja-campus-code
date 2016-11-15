@@ -1,5 +1,8 @@
 <% j = @job %>
 <h1><%= j.title %></h1>
+<% if j.featured %>
+    <strong>Destaque</strong>
+<% end %>
 <%= j.company %>
 <%= j.category %>
 <%= j.description %>
