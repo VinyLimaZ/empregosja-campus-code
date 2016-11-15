@@ -3,8 +3,10 @@
     <%= f.text_field :title %>
     <%= f.label :category, "Categoria" %>
     <%= f.text_field :category %>
-    <%= f.label :company, "Empresa" %>
-    <%= f.text_field :company %>
+
+    <%= f.label :company_id, "Empresa" %>
+    <%= f.collection_select(:company_id, @companies, :id, :name, {prompt: true}, required: true) %>
+
     <%= f.label  :description, "Descrição" %>
     <%= f.text_area :description %>
     <%= f.label :location, "Localização" %>
