@@ -7,6 +7,34 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes.rb",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 89,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "home_controller.rb"
+			}
+		},
+		{
+			"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 140,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "index.html.erb"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,10 +43,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "pack",
+		"height": 136.0,
+		"last_filter": "Package Control: instal",
 		"selected_items":
 		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inta",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"pack",
 				"Package Control: Add Channel"
@@ -36,7 +76,7 @@
 				"View: Toggle Minimap"
 			]
 		],
-		"width": 392.0
+		"width": 387.0
 	},
 	"console":
 	{
@@ -56,10 +96,16 @@
 	},
 	"expanded_folders":
 	[
-		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code"
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code",
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app",
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/controllers",
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/views",
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/config"
 	],
 	"file_history":
 	[
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/README.md",
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/config/empregosja-alone.sublime-project",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/config/routes.rb",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/controllers/home_controller.rb",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja_alone/app/jobs/application_job.rb",
@@ -107,8 +153,95 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/controllers/home_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"auto_name": "home_controller.rb",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/views/home/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html.erb",
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -189,7 +322,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
