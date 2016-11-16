@@ -15,8 +15,7 @@ class JobsController < ApplicationController
     if @job.save
       redirect_to job_path(@job)
     else
-      flash.now[:notice] = "Não foi possível criar a vaga"
-      render :new
+      redirect_to new_job_path, notice: "Não foi possível criar a vaga"
     end
   end
 
