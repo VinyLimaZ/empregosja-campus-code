@@ -1,11 +1,15 @@
+<% if flash[:notice] %>
+    <%= flash[:notice] %>
+<% end %>
 <%= form_for @job do |f| %>
+
     <%= f.label :title, "Título" %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title  %>
     <%= f.label :category, "Categoria" %>
     <%= f.text_field :category %>
 
-    <%= f.label :company_id, "Empresa" %>
-    <%= f.collection_select(:company_id, @companies, :id, :name, {prompt: true}, required: true) %>
+    <%= f.label :company_id, 'Empresa' %>
+    <%= f.collection_select(:company_id, @companies, :id, :name, { prompt: true }) %>
 
     <%= f.label  :description, "Descrição" %>
     <%= f.text_area :description %>
@@ -14,4 +18,5 @@
     <%= f.label :featured, "Destaque: "  %>
     <%= f.check_box :featured %>
     <%= f.submit "Criar Vaga" %>
+    <%= link_to("Voltar", root_path) %>
 <% end %>
