@@ -19,6 +19,21 @@ class JobsController < ApplicationController
     end
   end
 
+  def edit
+    @job = Job.find params[:id]
+    @companies = Company.all
+  end
+
+  def update
+    @job = Job.new jobs_params
+    if @job.save
+      redirect_to job_path(@job)
+    else
+      redirect_to edit_job_path, notice: "Não foi possível atualizar a vaga"
+    end
+
+  end
+
   private
 
     def jobs_params
