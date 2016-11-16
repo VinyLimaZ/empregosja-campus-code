@@ -3,3 +3,15 @@
 <%= c.location %>
 <%= c.mail %>
 <%= c.phone %>
+
+<% if c.jobs.any? %>
+  <% c.jobs.all.each do |j| %>
+    Título: <%= j.title %>
+    Localização: <%= j.location %>
+    Categoria: <%= j.category %>
+    Descrição: <%= j.description %>
+  <% end %>
+<% else %>
+  <h1>Nenhuma vaga disponível</h1>
+<% end %>
+

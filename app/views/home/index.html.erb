@@ -5,7 +5,10 @@
     <strong>Destaque</strong>
   <% end %>
   <%= j.category %><br>
-  <%= j.company.name %> <br>
   <%= j.location %>
-
 <% end %>
+
+<% @companies.each do |c| %>
+  <%= link_to(c.name, c) %>
+<% end %>
+
