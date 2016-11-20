@@ -1,5 +1,9 @@
 <h1><%= @category.name %></h1>
 
+<%# if flash[:msg] %>
+  <%# flash[:msg] %>
+<%# end %>
+
 <% unless @category.jobs.any? %>
   Nenhuma vaga disponível
   <% else %>
