@@ -8,7 +8,12 @@
   <%= j.location %>
 <% end %>
 
-<% @companies.each do |c| %>
-  <%= link_to(c.name, c) %>
+<% @companies.each do |co| %>
+  <%= link_to(co.name, co) %>
 <% end %>
+
+<% @categories.each do |ca| %>
+  <%= link_to(ca.name, ca) %>
+<% end %>
+
 
