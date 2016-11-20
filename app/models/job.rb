@@ -8,4 +8,8 @@ class Job < ApplicationRecord
     self.created_at < (Time.now - 90.days)
   end
 
+  def promoted?
+    self.created_at > (Time.now - 4.days)
+  end
+
 end

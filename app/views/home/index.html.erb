@@ -2,8 +2,11 @@
 <% @jobs.each do |j| %>
   <% unless j.expired? %>
     <h1><%= link_to j.title, job_path(j) %></h1>
+    <% if j.promoted? %>
+      <strong><p>Novidade</p></strong>
+    <% end %>
     <% if j.featured %>
-      <strong>Destaque</strong>
+      <strong><p>Destaque</p></strong>
     <% end %>
     <%= j.category.name %><br>
     <%= j.location %>
