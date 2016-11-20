@@ -14,6 +14,17 @@ class CompaniesController < ApplicationController
     @company = Company.find params[:id]
   end
 
+  def edit
+    @company = Company.find params[:id]
+  end
+
+  def update
+    @company = Company.new company_params
+    if @company.save
+      redirect_to company_path(@company)
+    end
+  end
+
   private
 
     def company_params
