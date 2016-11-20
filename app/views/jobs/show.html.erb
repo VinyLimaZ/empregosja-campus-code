@@ -1,4 +1,7 @@
 <% j = @job %>
+<% if j.expired? %>
+  Vaga Expirada
+<% end %>
 <h1><%= j.title %></h1>
 <% if j.featured %>
     <strong>Destaque</strong>
