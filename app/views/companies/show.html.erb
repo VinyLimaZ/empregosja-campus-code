@@ -5,6 +5,9 @@
 <%= c.phone %>
 
 <% if c.jobs.any? %>
+  <% if c.premium? %>
+    <%= image_tag("estrela.png") %>
+  <% end %>
   <% c.jobs.all.each do |j| %>
     Título: <%= j.title %>
     Localização: <%= j.location %>
