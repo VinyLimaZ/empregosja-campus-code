@@ -10,6 +10,9 @@
 
   <body>
     <h1>Emprego Já</h1>
+    <% if flash[:notice] %>
+      <%= flash[:notice] %>
+    <% end %>
     <%= yield %>
   </body>
 </html>

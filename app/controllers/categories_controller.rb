@@ -17,6 +17,21 @@ class CategoriesController < ApplicationController
     end
   end
 
+  def edit
+    @category = Category.find params[:id]
+  end
+
+  def update
+    @category = Category.new cat_params
+    if @category.save
+      flash.now[:notice] = 'Categoria atualizada com sucesso'
+      render :show
+    else
+      flash.now[:notice] = 'Não foi possível atualizar a categoria'
+      render :edit
+    end
+  end
+
   private
 
     def cat_params

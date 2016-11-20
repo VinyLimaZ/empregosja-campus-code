@@ -1,5 +1,1 @@
-<%= form_for @category do |c| %>
-  <%= c.label :name, 'Categoria' %>
-  <%= c.text_field :name %>
-  <%= c.submit 'Criar categoria' %>
-<% end %>
+<%= render partial: 'form', locals: {submit_tag: 'Criar categoria'} %>
