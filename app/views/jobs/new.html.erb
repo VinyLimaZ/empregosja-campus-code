@@ -5,8 +5,8 @@
 
     <%= f.label :title, "Título" %>
     <%= f.text_field :title  %>
-    <%= f.label :category, "Categoria" %>
-    <%= f.text_field :category %>
+    <%= f.label :category_id, "Categoria" %>
+    <%= f.collection_select(:category_id, @categories, :id, :name, presence: true) %>
 
     <%= f.label :company_id, 'Empresa' %>
     <%= f.collection_select(:company_id, @companies, :id, :name, prompt: true) %>

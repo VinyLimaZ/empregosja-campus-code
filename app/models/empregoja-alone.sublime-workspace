@@ -89,7 +89,7 @@
 			}
 		},
 		{
-			"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/models/category.rb",
+			"file": "category.rb",
 			"settings":
 			{
 				"buffer_size": 89,
@@ -98,7 +98,7 @@
 			}
 		},
 		{
-			"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/models/job.rb",
+			"file": "job.rb",
 			"settings":
 			{
 				"buffer_size": 168,
@@ -167,6 +167,7 @@
 	},
 	"expanded_folders":
 	[
+		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/controllers",
 		"/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/jobs",
@@ -302,7 +303,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/models/category.rb",
+					"file": "category.rb",
 					"semi_transient": false,
 					"settings":
 					{
@@ -330,7 +331,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/app/models/job.rb",
+					"file": "job.rb",
 					"semi_transient": false,
 					"settings":
 					{
@@ -395,7 +396,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "empregosja-alone.sublime-project",
+	"project": "/run/media/vinylimaz/SED/documentos/workspace-vinylimaz/campus_code/m1/empregosja_alone2/empregosja-campus-code/config/empregosja-alone.sublime-project",
 	"replace":
 	{
 		"height": 72.0

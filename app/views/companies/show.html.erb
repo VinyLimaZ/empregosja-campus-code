@@ -8,7 +8,7 @@
   <% c.jobs.all.each do |j| %>
     Título: <%= j.title %>
     Localização: <%= j.location %>
-    Categoria: <%= j.category %>
+    Categoria: <%= j.category.name %>
     Descrição: <%= j.description %>
   <% end %>
 <% else %>
